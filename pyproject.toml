@@ -1,0 +1,21 @@
+[project]
+name = "bot-architecture"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kelinkirill@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.12.8"
+dependencies = [
+    "aiogram (>=3.17.0,<4.0.0)",
+    "dishka (>=1.4.2,<2.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "pydantic-settings (>=2.7.1,<3.0.0)",
+    "httpx (>=0.28.1,<0.29.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
